@@ -1,0 +1,310 @@
+body {
+	background-image: url("../images/index.png");
+	color: #414a51;
+	font-family: Open Sans;
+	font-size: 0.85em;
+}
+
+h1 {
+	color: #363945;
+	font-family: League Gothic;
+	font-size: 60px;
+}
+
+h2 {
+    color: #363945;
+	font-family: League Gothic;
+	font-size: 50px;
+}
+
+h3 {
+    color: #363945;
+	font-family: League Gothic;
+	font-size: 40px;
+}
+
+h4 {
+    color: #363945;
+	font-size: 30px;
+}
+
+h5 {
+    color: #363945;
+	font-size: 25px;
+}
+
+h6 {
+    color: #363945;
+	font-size: 20px;
+}
+
+p {
+	margin: 0 0 10px;
+}
+
+a {
+    color: #990000;
+	outline: none;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: #333;
+}
+
+label {
+	padding-bottom: 3px;
+}
+
+input[type="text"], input[type="email"] {
+	border: 1px solid #d2dadd;
+	margin: 3px 0 0;
+	outline-color: #e2eaed;
+	padding: 8px 7px;
+	width: 100%;
+}
+
+input[type="submit"] {
+	background-color: #990000;
+	border: medium none;
+	color: #FFFFFF;
+	cursor: pointer;
+	float: right;
+	padding: 8px 20px;
+}
+
+textarea {
+	border: 1px solid #d2dadd;
+	height: 300px;
+	margin: 3px 0 0;
+	outline-color: #e2eaed;
+	padding: 8px 7px;
+	width: 100%;
+}
+
+section {
+    margin: 0 auto;
+	max-width: 1140px;
+    padding: 30px 0;
+    width: 90%;
+}
+
+header {
+	background: none repeat scroll 0 0 #990000;
+}
+
+header a {
+    color: #fff;
+}
+
+header a:hover,
+header a:active,
+header a:focus {
+	color: #560000;
+}
+
+header #logo {
+	font-family: Boogaloo;
+	font-size: 50px;
+	margin: 0 30px 0 0;
+    display: inline-block;
+}
+
+header #logo a {
+	color: #fff;
+    text-decoration: none;
+}
+
+header menu#main-menu {
+    display: inline-block;
+	font-family: League Gothic;
+	font-size: 22px;
+	text-transform: uppercase;
+}
+
+header menu#main-menu ul li {
+	color: #6c0000;
+    float: left;
+}
+
+header menu#main-menu ul li:after {
+    content: "•";
+}
+
+header menu#main-menu ul li:last-child:after {
+    content: "";
+}
+
+header menu#main-menu ul li a {
+	margin: 0 24px 0 20px;
+    text-decoration: none;
+}
+
+header menu#main-menu ul li a:hover,
+header menu#main-menu ul li a:focus,
+header menu#main-menu ul li a:active {
+    text-decoration: none;
+}
+
+main > section {
+	background: none repeat scroll 0 0 #fff;
+	padding: 50px 70px;
+}
+
+main #intro {
+	max-width: 700px;
+	padding: 60px 0;
+}
+
+main article {
+	border-bottom: 1px dotted #cbd0d6;
+	margin: 0 0 20px;
+	overflow: hidden;
+	padding: 0 0 20px;
+}
+
+main article:last-child {
+	border-bottom: medium none;
+	padding: 0;
+}
+
+main article img {
+	border: 1px solid #cbd0d6;
+    display: block;
+	float: left;
+	margin: 0 10px 10px 0;
+	width: 150px;
+}
+
+main article h2 {
+	margin: 0 0 15px;
+}
+
+main article > h2 a {
+    color: #4e5e6a;
+    text-decoration: none;
+}
+
+main article > h2 a:hover {
+    text-decoration: none;
+}
+
+main article p {
+	line-height: 1.5;
+}
+
+main article > p:nth-child(1) {
+    color: #9ea7b1;
+	font-size: 12px;
+}
+
+main article > a {
+    display: block;
+    margin: 10px 0;
+}
+
+main #team-search {
+	float: left;
+}
+
+main #team {
+    background: none repeat scroll 0 0 white;
+    border-bottom: 1px solid #cbd0d6;
+    border-left: 1px solid #cbd0d6;
+    border-right: 1px solid #cbd0d6;
+    box-shadow: 0 -3px 0 #990000;
+	font-size: 12px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    width: 400px;
+}
+
+main #team #crest {
+    display: inline-block;
+}
+
+main #team #name {
+    display: inline-block;
+    margin: 0 0 5px;
+}
+
+main #team #status {
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+main #team #status #points {
+	float: left;
+}
+
+main #team #status #budget {
+	float: right;
+}
+
+main #team #players {
+    margin: 20px 0 0;
+    width: 100%;
+}
+
+main #team #players tr {
+    border-bottom: 1px solid #cbd0d6;
+}
+
+main #team #players tr:hover {
+	background-color: #cbd0d6;
+}
+
+main #team #players tr:last-child {
+	border-bottom: medium none;
+}
+
+main #team #players tr td {
+    padding: 5px 0;
+}
+
+main #team #players tr td.position {
+	color: #9ea7b1;
+}
+
+main #team #players tr td.name {
+	color: #363945;
+	text-transform: uppercase;
+}
+
+main #team #players tr td.points {
+	color: #5b7018;
+	text-align: center;
+}
+
+main #team #players tr td.points.negative {
+	color: #c30;
+}
+
+footer {
+    box-shadow: 0 -0.0625em rgba(255, 255, 255, 0.8), 0 -0.1875em 0.125em rgba(0, 0, 0, 0.15);
+	padding-bottom: 70px;
+}
+
+footer .col-left {
+	float: left;
+}
+
+footer .col-right {
+	float: right;
+}
+
+footer a i {
+	color: #990000;
+}
+
+footer a i:hover {
+	opacity: 0.5;
+}
+
+footer ul.horizontal-menu li {
+	float: left;
+	margin: 0 5px 10px;
+}

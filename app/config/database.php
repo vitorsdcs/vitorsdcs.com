@@ -55,9 +55,9 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'vitorsdcs',
+			'database'  => 'vitorsdcs.com',
 			'username'  => 'root',
-			'password'  => '',
+			'password'  => 'cwMEyhuTlS',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',

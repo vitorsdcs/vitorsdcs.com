@@ -4,8 +4,9 @@
 
 @section('content')
 	<article>
+		<p><i class="fa fa-calendar-o"></i> {{ $post->created_at->formatLocalized('%d/%m/%Y %Hh%m') }}</p>
 		<h2>{{ $post->title }}</h2>
-		<p>Published {{ $post->created_at->diffForHumans() }}</p>
+		{{ HTML::image($post->image) }}
 		{{ Markdown::parse($post->body) }}
 	</article>
 @stop

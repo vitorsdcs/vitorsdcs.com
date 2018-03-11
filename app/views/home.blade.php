@@ -4,14 +4,9 @@
 
 @section('content')
 	
-	@if ($posts->count())
-		@foreach ($posts as $post)
-			<article>
-				<h2><a href="{{ URL::action('post-show', $post->slug) }}">{{ $post->title }}</a></h2>
-				<p>Published {{ $post->created_at->diffForHumans() }}</p>
-				{{ Markdown::parse(Str::limit($post->body, 300)) }}
-				<a href="{{ URL::action('post-show', $post->slug) }}">Read more &rarr;</a>
-			</article>
-		@endforeach
-	@endif
+	<article id="intro">
+		<h1>Vitor Silva C. Santos</h1>
+		<p>Phasellus commodo placerat est, sit amet viverra turpis facilisis mollis. Curabitur non tellus sit amet tortor lobortis sollicitudin. Donec maximus eros tortor, ut faucibus tellus ultrices ut. Pellentesque tristique facilisis arcu at maximus. Ut placerat lorem eros, ac commodo eros sodales eget. Praesent in interdum odio. Vestibulum elementum non lacus nec viverra. Pellentesque ut laoreet odio. Vestibulum sagittis imperdiet elit sit amet tristique.</p>
+	</article>
+	
 @stop

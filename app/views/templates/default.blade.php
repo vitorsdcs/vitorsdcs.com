@@ -1,3 +1,7 @@
 @include('templates.partials.header')
-	@yield('content')
+	<main>
+		<section>
+			@yield('content')
+		</section>
+	</main>
 @include('templates.partials.footer')
